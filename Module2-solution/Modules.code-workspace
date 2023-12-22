@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Modules-1",
+			"path": "../Modules-1"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
