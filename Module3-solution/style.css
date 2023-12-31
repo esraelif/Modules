@@ -52,3 +52,7 @@ box-sizing: border-box;
     color: black; 
     margin-bottom: 15px;  
 }
+.navbar-toggler{
+    margin-left: 550px;
+    
+}
