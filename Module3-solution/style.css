@@ -1,0 +1,54 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar{
+    
+    width:auto;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+   
+    padding-left: 30px;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: orange;
+}
+.container{
+    margin-top: 6rem !important;
+      
+}
+.card-body1{
+    border: 1px solid black;
+    background-color:antiquewhite;
+    color: orangered;
+}
+.card-body2{
+    border: 1px solid black;
+    background-color:antiquewhite;
+    color: orangered;
+}
+.card-body3{
+    border: 1px solid black;
+    background-color:antiquewhite;
+    color: orangered;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    color: black; 
+    margin-bottom: 15px;  
+}

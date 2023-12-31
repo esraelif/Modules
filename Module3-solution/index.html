@@ -3,26 +3,62 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>module3-solution</title>
+    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header class="font-monospace fw-bold fs-1">
-        <p class="lead text"><b>Food, LLC</b> </p>
-    </header>
-
-    <section>
-        <h1>Our Menu</h1>
-        <div class="chicken">
-            <h2>Chicken</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam modi architecto suscipit, nam sequi provident id non? Inventore sint ipsa voluptatum reprehenderit incidunt quidem, saepe sunt magnam officiis id perspiciatis quos ducimus officia unde architecto? Consequatur vero quas fuga sit nemo eius laboriosam minima aspernatur harum! Voluptatem perspiciatis et neque.</p>
+    <nav class="navbar bg-body-dark fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand"   href="#">Food, LLC</a>
+          <button class="navbar-toggler d-none d-sm-block d-md-none"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Our Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Chicken</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Beef</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sushi</a>
+                  </li>
+                
+              </ul>
+              
+            </div>
+          </div>
         </div>
-    </section>
+      </nav>
 
+        <h1 class="menu">Our Menu</h1>
 
+      <div class=" container d-flex row" style="width:auto;
+       margin: auto">
+        <div class="card-body1 col col-lg-4 col-md-6 col-sm-12" style="">
+          <h5 class="card-title">Chicken</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur et laborum asperiores aut! Veritatis quas assumenda officiis nostrum, accusamus voluptates ullam odio perspiciatis pariatur eos. Explicabo inventore, quae quod hic voluptas nulla. Nisi nostrum, cum dolorum nemo aliquam numquam, quam earum illo eum beatae enim doloremque fuga fugiat! Asperiores!Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur et laborum asperiores aut! Veritatis quas assumenda officiis nostrum, accusamus voluptates ullam odio perspiciatis pariatur eos. Explicabo inventore, quae quod hic voluptas nulla. Nisi nostrum, cum dolorum nemo aliquam numquam, quam earum illo eum beatae enim doloremque fuga fugiat! Asperiores!</p>
+        </div>
 
+        
 
-    <h1>Hello, world!</h1>
+        <div class="card-body2 col col-lg-4 col-md-6 col-sm-12 ">
+            <h5 class="card-title">Beef</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur et laborum asperiores aut! Veritatis quas assumenda officiis nostrum, accusamus voluptates ullam odio perspiciatis pariatur eos. Explicabo inventore, quae quod hic voluptas nulla. Nisi nostrum, cum dolorum nemo aliquam numquam, quam earum illo eum beatae enim doloremque fuga fugiat! Asperiores!Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur et laborum asperiores aut! Veritatis quas assumenda officiis nostrum, accusamus voluptates ullam odio perspiciatis pariatur eos. Explicabo inventore, quae quod hic voluptas nulla. Nisi nostrum, cum dolorum nemo aliquam numquam, quam earum illo eum beatae enim doloremque fuga fugiat! Asperiores!</p>
+          </div>
+
+          <div class="card-body3 col col-lg-4 col-md-12 col-sm-12 ">
+            <h5 class="card-title">Sushi</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur et laborum asperiores aut! Veritatis quas assumenda officiis nostrum, accusamus voluptates ullam odio perspiciatis pariatur eos. Explicabo inventore, quae quod hic voluptas nulla. Nisi nostrum, cum dolorum nemo aliquam numquam, quam earum illo eum beatae enim doloremque fuga fugiat! Asperiores!Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur et laborum asperiores aut! Veritatis quas assumenda officiis nostrum, accusamus voluptates ullam odio perspiciatis pariatur eos. Explicabo inventore, quae quod hic voluptas nulla. Nisi nostrum, cum dolorum nemo aliquam numquam, quam earum illo eum beatae enim doloremque fuga fugiat! Asperiores!</p>
+          </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
